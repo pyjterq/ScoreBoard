@@ -36,7 +36,7 @@ h3 {
 }
 
 
-.result-bg-home, .result-bg-guest {
+.result-bg {
     background-color: #080001;
     border-radius: 5px;
     margin: 1.5rem 0;
@@ -75,4 +75,7 @@ border-radius: 5px;
     max-width: 100px;
     margin: 1.5rem auto;
     text-transform: capitalize;
+}
+.winner-bg {
+    background-color: darkcyan !important;
 }
