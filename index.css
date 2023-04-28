@@ -1,0 +1,78 @@
+/* flex center verticaly and horizontaly content od body */
+@font-face {
+    font-family: 'Cursed Timer ULiL'; 
+    src: url("./fonts/CursedTimerUlil-Aznm.ttf");
+}
+p {
+    margin: 0;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 500px;
+    background-color: #1B244A;
+    padding: 3rem;
+}
+.columns {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 1.5rem;
+}
+
+h3 {
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+
+.result-bg-home, .result-bg-guest {
+    background-color: #080001;
+    border-radius: 5px;
+    margin: 1.5rem 0;
+}
+
+#result-home, #result-guest{
+    font-family: 'Cursed Timer ULiL';
+    font-size: 5.625em;
+    color: #F94F6D;
+    text-align: center;
+    padding: .2em 0 0;
+}
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.score {
+color: #9AABD8;
+border: solid 2px #9AABD8;
+border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    padding: .75rem;
+    margin: 0;
+}
+
+#reset {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .5em;
+    border:solid 2px #F94F6D;
+    border-radius: 5px;
+    max-width: 100px;
+    margin: 1.5rem auto;
+    text-transform: capitalize;
+}
