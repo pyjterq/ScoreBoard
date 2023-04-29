@@ -7,7 +7,6 @@ p {
     margin: 0;
 }
 body {
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,5 +76,5 @@ border-radius: 5px;
     text-transform: capitalize;
 }
 .winner-bg {
-    background-color: darkcyan !important;
+    background-color: rgb(14, 95, 91);
 }
