@@ -5,11 +5,27 @@ let guestResult = 0
 let resultBgHome = document.getElementById("result-bg-home")
 let resultBgGuest = document.getElementById("result-bg-guest")
 
+
+document.getElementById("point-home-1").addEventListener("click", plusHome1)
+function plusHome1() { plusHome(1)} 
+document.getElementById("point-home-2").addEventListener("click", plusHome2)
+function plusHome2() { plusHome(2)}
+document.getElementById("point-home-3").addEventListener("click", plusHome3)
+function plusHome3() { plusHome(3)}
+
 function plusHome(score) {
     resultHome.textContent = homeResult + parseInt(score)
     homeResult += score
     winnerMark()
 }
+
+
+document.getElementById("point-guest-1").addEventListener("click", plusGuest1)
+function plusGuest1() { plusGuest(1)}
+document.getElementById("point-guest-2").addEventListener("click", plusGuest2)
+function plusGuest2() { plusGuest(2)}
+document.getElementById("point-guest-3").addEventListener("click", plusGuest3)
+function plusGuest3() { plusGuest(3)}
 
 function plusGuest(score) { 
     resultGuest.textContent = guestResult + parseInt(score)
